@@ -49,7 +49,8 @@ from sentiment_model import predict_sentiment
 
 text = "I love this product! It's amazing."
 sentiment = predict_sentiment(text)
-print(sentiment)  # Output: Positive
+print(sentiment)  
+Output: Positive
 
 
 
