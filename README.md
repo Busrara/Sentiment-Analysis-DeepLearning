@@ -36,10 +36,11 @@ After training, the model achieved:
 - **F1-Score: 90.4%**
 
 ### 📌 Confusion Matrix:
-                         | Pos. | Neg.| Netu.|
-| **Predicted Positive** | 180 | 12  | 8    |
-| **Predicted Negative** | 15  | 160 | 10   |
-| **Predicted Neutral**  | 5   | 10  | 170  |
+|      | Positive | Negative | Neutral |
+|------|---------|---------|---------|
+| **Predicted Positive** | 180 | 12 | 8 |
+| **Predicted Negative** | 15 | 160 | 10 |
+| **Predicted Neutral**  | 5  | 10  | 170 |
 
 ## 🚀 Usage
 You can test the model on sample text:
@@ -48,8 +49,7 @@ from sentiment_model import predict_sentiment
 
 text = "I love this product! It's amazing."
 sentiment = predict_sentiment(text)
-print(sentiment)  
-# Output: Positive
+print(sentiment)  # Output: Positive
 
 
 
