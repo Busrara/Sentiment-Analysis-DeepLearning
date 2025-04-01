@@ -52,7 +52,7 @@ sentiment = predict_sentiment(text)
 print(sentiment)  
 Output: Positive
 
-
+If you're interested in a detailed explanation of how this project works, read my Medium article: https://medium.com/@busraracoban/building-a-deep-learning-sentiment-analysis-model-with-lstm-a-step-by-step-guide-6a3db5f7c738 📖
 
 
 
